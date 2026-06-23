@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Workflow — Privacy Policy</title>
-<meta name="description" content="Privacy Policy for the Workflow application.">
+<title>Workflow</title>
+<meta name="description" content="Workflow — a personal automation tool for publishing short-form video to platforms you manage.">
 <style>
   :root {
     --fg: #1f2328;
@@ -35,6 +35,7 @@
     font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
     padding: 2rem 1rem 4rem;
+    min-height: 100vh;
   }
   .wrap {
     max-width: 720px;
@@ -42,222 +43,93 @@
   }
   header {
     border-bottom: 1px solid var(--border);
-    padding-bottom: 1.25rem;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
   h1 {
-    font-size: 1.9rem;
-    margin: 0 0 .35rem;
+    font-size: 2.1rem;
+    margin: 0 0 .5rem;
     line-height: 1.2;
   }
-  .meta {
+  .tagline {
     color: var(--muted);
-    font-size: .92rem;
+    font-size: 1.05rem;
     margin: 0;
   }
-  .meta strong { color: var(--fg); font-weight: 600; }
-  h2 {
-    font-size: 1.2rem;
-    margin: 2rem 0 .6rem;
-    padding-top: .25rem;
-    scroll-margin-top: 1rem;
-  }
-  h3 {
-    font-size: 1.02rem;
-    margin: 1.25rem 0 .35rem;
-    color: var(--fg);
-  }
-  p, li { color: var(--fg); }
-  p { margin: .5rem 0; }
-  ul { margin: .5rem 0; padding-left: 1.35rem; }
-  li { margin: .2rem 0; }
-  a { color: var(--link); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  code {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: .1em .35em;
-    font-size: .88em;
-    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-  }
-  .callout {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: .85rem 1rem;
-    margin: 1rem 0;
-  }
-  .toc {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem 1.25rem;
-    margin: 1.25rem 0 2rem;
-  }
-  .toc h2 {
-    margin: 0 0 .5rem;
-    font-size: 1rem;
-    border: 0;
+  .links {
+    list-style: none;
+    margin: 1.5rem 0;
     padding: 0;
   }
-  .toc ul { margin: 0; padding-left: 1rem; }
-  .toc li { margin: .12rem 0; }
+  .links li {
+    margin: .5rem 0;
+  }
+  .links a {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: .85rem 1.1rem;
+    color: var(--fg);
+    font-size: 1rem;
+    transition: border-color .15s, transform .05s;
+  }
+  .links a:hover {
+    border-color: var(--accent);
+    text-decoration: none;
+  }
+  .links a:active { transform: translateY(1px); }
+  .links a small {
+    display: block;
+    color: var(--muted);
+    font-size: .85rem;
+    margin-top: .15rem;
+  }
+  .contact {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: .92rem;
+  }
+  .contact a { color: var(--link); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
   footer {
     margin-top: 3rem;
-    border-top: 1px solid var(--border);
-    padding-top: 1rem;
     color: var(--muted);
     font-size: .85rem;
   }
-  hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
   <header>
-    <h1>Workflow — Privacy Policy</h1>
-    <p class="meta">
-      <strong>Effective date:</strong> June 23, 2026>
-      &nbsp;·&nbsp;
-      <strong>Last updated:</strong> June 23, 2026
-    </p>
+    <h1>Workflow</h1>
+    <p class="tagline">A personal automation tool for publishing short-form video to platforms you manage.</p>
   </header>
 
-  <p>This Privacy Policy describes how <strong>Workflow</strong> (the &ldquo;App&rdquo;) handles information when you use it. By using the App, you agree to the practices described here.</p>
+  <ul class="links">
+    <li>
+      <a href="/privacy.html">
+        Privacy Policy
+        <small>How Workflow handles information and third-party API access.</small>
+      </a>
+    </li>
+    <li>
+      <a href="/terms.html">
+        Terms of Service
+        <small>The terms under which Workflow is provided and used.</small>
+      </a>
+    </li>
+  </ul>
 
-  <div class="callout">
-    <strong>Short version:</strong> Workflow is a personal, single-operator automation tool. It does not collect personal data from the public. It only accesses the third-party accounts you explicitly connect (Google, Meta/Facebook, TikTok) and only to perform actions you request on your own content.
+  <div class="contact">
+    Contact: <a href="mailto:bigzero43@gmail.com">bigzero43@gmail.com</a>
   </div>
 
-  <nav class="toc" aria-label="Table of contents">
-    <h2>Contents</h2>
-    <ul>
-      <li><a href="#overview">1. Overview</a></li>
-      <li><a href="#data-we-access">2. Information the App Accesses</a></li>
-      <li><a href="#third-party">3. Third-Party Services</a></li>
-      <li><a href="#local-data">4. Locally Stored Data</a></li>
-      <li><a href="#auth-data">5. Authentication &amp; Credentials</a></li>
-      <li><a href="#use">6. How Information Is Used</a></li>
-      <li><a href="#sharing">7. Data Sharing &amp; Disclosure</a></li>
-      <li><a href="#retention">8. Data Retention</a></li>
-      <li><a href="#rights">9. Your Rights &amp; Choices</a></li>
-      <li><a href="#children">10. Children&rsquo;s Privacy</a></li>
-      <li><a href="#security">11. Security</a></li>
-      <li><a href="#changes">12. Changes to This Policy</a></li>
-      <li><a href="#contact">13. Contact</a></li>
-    </ul>
-  </nav>
-
-  <h2 id="overview">1. Overview</h2>
-  <p>Workflow is an automation pipeline operated by a single developer for personal use. It downloads videos, edits and dubs them (subtitles, text-to-speech, translation), and publishes the results to platforms you manage &mdash; including Facebook Reels, YouTube, and Shopee affiliate comment placement.</p>
-  <p>The App is <strong>not offered to the general public</strong> and does not have end users other than the operator. It does not run a public sign-up, does not serve advertising, and does not sell data.</p>
-
-  <h2 id="data-we-access">2. Information the App Accesses</h2>
-  <p>When you connect a third-party account, the App requests only the minimum scopes needed to perform the actions you initiate. The exact permissions are listed below.</p>
-
-  <h3>Google</h3>
-  <p>The App uses Google APIs for YouTube publishing, reading your own Google Sheets, transcription/translation, and verifying your identity during OAuth.</p>
-  <ul>
-    <li><code>https://www.googleapis.com/auth/youtube.upload</code> &mdash; upload videos to your YouTube channel.</li>
-    <li><code>https://www.googleapis.com/auth/youtube.readonly</code> &mdash; read your channel information.</li>
-    <li><code>https://www.googleapis.com/auth/userinfo.email</code> &mdash; read your account email during sign-in.</li>
-    <li><strong>Gemini API</strong> &mdash; sends audio or text to Google&rsquo;s generative models for transcription and translation.</li>
-    <li><strong>Google Translate</strong> &mdash; sends text for translation.</li>
-    <li><strong>Google Sheets API</strong> &mdash; reads spreadsheet cells you have shared with &ldquo;anyone with the link&rdquo; to obtain video URLs, titles, and descriptions.</li>
-  </ul>
-
-  <h3>Meta / Facebook</h3>
-  <p>The App uses the Facebook Graph API to manage Pages you administer. The requested scopes are:</p>
-  <ul>
-    <li><code>pages_show_list</code> &mdash; list the Pages you manage.</li>
-    <li><code>pages_manage_posts</code> &mdash; publish Reels on your Pages.</li>
-    <li><code>pages_manage_engagement</code> &mdash; post comments (including Shopee affiliate links and images) on your Pages&rsquo; posts.</li>
-    <li><code>pages_read_engagement</code> &mdash; read engagement data needed to resolve posts.</li>
-    <li><code>business_management</code> &mdash; access the Business Portfolio that owns the Pages.</li>
-  </ul>
-
-  <h3>TikTok</h3>
-  <p>When you use TikTok as a video source, the App uses TikTok&rsquo;s Login Kit to establish a session and obtain a basic profile identifier. It does not post to TikTok and does not request scopes beyond what is required for login and download.</p>
-
-  <h2 id="third-party">3. Third-Party Services</h2>
-  <p>The App interacts with the following third-party services. Each service has its own privacy policy governing how it processes data once received.</p>
-  <ul>
-    <li><a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google Privacy Policy</a> &mdash; YouTube, Gemini, Google Translate, Google Sheets, sign-in.</li>
-    <li><a href="https://www.facebook.com/privacy/policy/" rel="noopener" target="_blank">Meta Privacy Policy</a> &mdash; Facebook Pages, Graph API.</li>
-    <li><a href="https://www.tiktok.com/legal/privacy-policy" rel="noopener" target="_blank">TikTok Privacy Policy</a> &mdash; Login Kit.</li>
-    <li><strong>Shopee</strong> &mdash; only public product metadata (Open Graph <code>og:title</code> and <code>og:image</code>) is fetched from product URLs you provide. No Shopee account is used.</li>
-    <li><strong>Cloudflare R2</strong> &mdash; optional, used only when you explicitly upload log files to your own R2 bucket for storage.</li>
-  </ul>
-
-  <h2 id="local-data">4. Locally Stored Data</h2>
-  <p>The App processes and stores the following on the operator&rsquo;s local machine:</p>
-  <ul>
-    <li>Downloaded source videos and edited output files.</li>
-    <li>Generated subtitles, translations, and text-to-speech audio.</li>
-    <li>Shopee product metadata (title and image URL) scraped from URLs you supply.</li>
-    <li>A local SQLite database tracking source videos, processed videos, and upload records.</li>
-    <li>Browser cookies for sites you log into for downloading (stored in a persistent browser profile on your machine).</li>
-  </ul>
-
-  <h2 id="auth-data">5. Authentication &amp; Credentials</h2>
-  <p>To act on your behalf, the App stores credentials locally on your machine:</p>
-  <ul>
-    <li><strong>YouTube refresh tokens</strong> &mdash; obtained via Google OAuth, stored locally, used to mint short-lived access tokens for uploads.</li>
-    <li><strong>Facebook Page access tokens</strong> &mdash; long-lived tokens for Pages you manage, stored locally and pasted into the App&rsquo;s forms.</li>
-    <li><strong>Gemini API keys</strong> &mdash; supplied by you and sent to the transcription service in an HTTP header.</li>
-    <li><strong>Cloudflare R2 credentials</strong> &mdash; only if you enable log upload.</li>
-  </ul>
-  <p>These credentials are not transmitted to any party other than the service they belong to. Treat any credential that has appeared in an old log file as compromised and rotate it.</p>
-
-  <h2 id="use">6. How Information Is Used</h2>
-  <p>The App uses accessed information solely to:</p>
-  <ul>
-    <li>Download, edit, dub, subtitle, and translate videos you select.</li>
-    <li>Publish videos and comments to the Pages and channels you manage.</li>
-    <li>Read video lists from Google Sheets you own.</li>
-    <li>Fetch public product metadata from Shopee URLs you supply.</li>
-    <li>Track run state so workflows can be resumed after interruption.</li>
-  </ul>
-
-  <h2 id="sharing">7. Data Sharing &amp; Disclosure</h2>
-  <p>The App does <strong>not</strong> sell, rent, or share data with third parties. The only external transmissions are to the API provider whose service is being called (for example, a video file is sent to the YouTube Data API when you request an upload). No analytics, advertising, or tracking SDKs are included.</p>
-
-  <h2 id="retention">8. Data Retention</h2>
-  <p>Local data (videos, database, cookies, credentials) is retained on your machine until you delete it. Optional Cloudflare R2 log uploads are retained according to your own bucket lifecycle policy. Because the operator and the user are the same individual, no separate retention period is enforced by the App.</p>
-
-  <h2 id="rights">9. Your Rights &amp; Choices</h2>
-  <p>Because Workflow is a single-operator tool, you control all data directly. You may:</p>
-  <ul>
-    <li>Delete local files and the SQLite database at any time.</li>
-    <li>Revoke the App&rsquo;s access to a provider in that provider&rsquo;s console:
-      <ul>
-        <li><a href="https://myaccount.google.com/permissions" rel="noopener" target="_blank">Google account permissions</a></li>
-        <li><a href="https://www.facebook.com/settings?tab=applications" rel="noopener" target="_blank">Meta app settings</a></li>
-        <li><a href="https://www.tiktok.com/login/settings" rel="noopener" target="_blank">TikTok authorized apps</a></li>
-      </ul>
-    </li>
-    <li>Rotate or delete any stored API key or token at any time.</li>
-  </ul>
-
-  <h2 id="children">10. Children&rsquo;s Privacy</h2>
-  <p>The App is not directed at children under 16 and does not knowingly collect any data from children. Because it has no public-facing sign-up, no child can become a user.</p>
-
-  <h2 id="security">11. Security</h2>
-  <p>Credentials and data are stored locally on your machine and transmitted only over HTTPS to the relevant provider. The App is intended for local, personal use and is <strong>not hardened for public internet exposure</strong>. If you deploy it beyond a local network, you are responsible for additional access controls, TLS termination, and network security.</p>
-
-  <h2 id="changes">12. Changes to This Policy</h2>
-  <p>This policy may be updated to reflect changes in the App or the APIs it uses. The &ldquo;Last updated&rdquo; date at the top of this page will be revised accordingly. Continued use after a change constitutes acceptance of the updated policy.</p>
-
-  <h2 id="contact">13. Contact</h2>
-  <p>For questions about this Privacy Policy or the App&rsquo;s data practices, contact:</p>
-  <p>
-    Email: <a href="mailto:bigzero43@gmail.com">bigzero43@gmail.com</a>
-  </p>
-
   <footer>
-    &copy; 2026 Workflow. This document is provided for the purpose of complying with the privacy-policy requirements of Google and Meta platform app review.
+    &copy; 2026 Workflow.
   </footer>
 
 </div>
